@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{f74209e3-4f01-4a36-a902-747dc66644e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{6d2ffdf3-c57c-48e9-aaf7-cac2b42aba3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{81e92e2b-5000-40c7-94d4-3ddf77d54bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a808a1d7-addf-4a16-9d41-4d1c7d146ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowGame">
+      <UniqueIdentifier>{b300c36c-672e-4859-9e6b-08e2463219e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraAndMap">
+      <UniqueIdentifier>{b6b2e5f9-fc2e-4545-8b71-ff176cd36aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{a09e44f1-8c49-4814-98ed-7b561df38dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SenceManager">
+      <UniqueIdentifier>{13e89c1d-be3f-4849-8dfd-177c29b20b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{a91fefea-63a6-4498-a375-c2c8d1114bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss">
+      <UniqueIdentifier>{1cbfdcac-9ae8-45c3-9a96-fc6b3319f1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\VatPham">
+      <UniqueIdentifier>{1ba4793e-4657-4e93-baea-3cec88c06a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{e3bc8d12-f850-4085-9ccf-a889f94513ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\QuaiMap1">
+      <UniqueIdentifier>{bca29493-8a8d-428d-8a81-11b4e5cfb82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\QuaiMap2">
+      <UniqueIdentifier>{fec4362d-8a1b-4dd6-91f4-7629edf5f20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cong">
+      <UniqueIdentifier>{07c95598-8d9f-4ea9-837a-913398bae8ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSampleKeyHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>WindowGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionTexture.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>CameraAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>CameraAndMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScence.cpp">
+      <Filter>SenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVat.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scence.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="KhongGian.cpp">
+      <Filter>SenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyKhongGian.cpp">
+      <Filter>SenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Thang.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>SenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyGrid.cpp">
+      <Filter>SenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CangChanBoss.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BanChanBoss.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="DanOfQuai.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="DanOfQuaiVatDauLau.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="DanOfQuaiVatDauSau.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatBoRua.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatBoRuaNgang.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatDauLau.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatDauSau.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatRuoi.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatSau.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatThanLan.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatVienDanHuongLen.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="DanOfQuaiSungDauCong.cpp">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiAoKhoa.cpp">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiMotMat.cpp">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiSungDauCong.cpp">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClCompile>
+    <ClCompile Include="QuaiVatBomz.cpp">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPham.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPhamFr.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPhamH.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPhamHNho.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPhamP.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="VatPhamSamSet.cpp">
+      <Filter>Object\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNguoi.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNguoi2.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerXe.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VienDan1Len.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VienDan1Trai.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Object\Cong</Filter>
+    </ClCompile>
+    <ClCompile Include="CongKhongGian.cpp">
+      <Filter>Object\Cong</Filter>
+    </ClCompile>
+    <ClCompile Include="ThanhMau.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="VienDanPlayerNguoi2.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VienDanPlayerNguoi.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSampleKeyHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyEventHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow.h">
+      <Filter>WindowGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionTexture.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CameraAndMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>CameraAndMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScence.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scence.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVat.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="KhongGian.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanLyKhongGian.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Thang.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanLyGrid.h">
+      <Filter>SenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Delay.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CangChanBoss.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BanChanBoss.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="DanOfQuai.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="DanOfQuaiVatDauLau.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="DanOfQuaiVatDauSau.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatBoRua.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatBoRuaNgang.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatDauLau.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatDauSau.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatRuoi.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatSau.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatThanLan.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatVienDanHuongLen.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="DanOfQuaiSungDauCong.h">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiAoKhoa.h">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiMotMat.h">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiSungDauCong.h">
+      <Filter>Object\QuaiMap2</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVatBomz.h">
+      <Filter>Object\QuaiMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPham.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPhamFr.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPhamH.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPhamHNho.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPhamP.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="VatPhamSamSet.h">
+      <Filter>Object\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNguoi.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNguoi2.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerXe.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VienDan1Len.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VienDan1Trai.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Object\Cong</Filter>
+    </ClInclude>
+    <ClInclude Include="CongKhongGian.h">
+      <Filter>Object\Cong</Filter>
+    </ClInclude>
+    <ClInclude Include="ThanhMau.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="VienDanPlayerNguoi2.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VienDanPlayerNguoi.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
